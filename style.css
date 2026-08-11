@@ -21,9 +21,10 @@ body[data-channel="ghazals"]{ --accent:var(--ge-a); --accent-2:var(--ge-b); }
   box-sizing:border-box; margin:0; padding:0;
   -webkit-tap-highlight-color: transparent;
 }
-html,body{height:100%;}
+html,body{height:100%; height:-webkit-fill-available;}
 body{
   min-height:100vh;
+  min-height:100dvh;
   background:var(--chassis);
   color:var(--cream);
   font-family:'IBM Plex Sans',-apple-system,BlinkMacSystemFont,sans-serif;
