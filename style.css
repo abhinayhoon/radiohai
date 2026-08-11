@@ -228,7 +228,6 @@ body[data-channel="ghazals"] .bg-ghazals {
 
 /* ===== RESPONSIVE ===== */
 @media (max-width:420px){
-  .mark-label{display:none;}
   .player-bar{bottom:12px; border-radius:18px; padding:12px 14px 10px;}
   .art{width:44px; height:44px; border-radius:12px;}
   .play-btn{width:40px; height:40px;}
