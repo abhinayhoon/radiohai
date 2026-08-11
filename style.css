@@ -17,7 +17,10 @@ body[data-channel="truck"]  { --accent:var(--hw-a); --accent-2:var(--hw-c); }
 body[data-channel="ghazals"]{ --accent:var(--ge-a); --accent-2:var(--ge-b); }
 
 /* ===== RESET ===== */
-*{box-sizing:border-box; margin:0; padding:0;}
+*{
+  box-sizing:border-box; margin:0; padding:0;
+  -webkit-tap-highlight-color: transparent;
+}
 html,body{height:100%;}
 body{
   min-height:100vh;
@@ -25,6 +28,7 @@ body{
   color:var(--cream);
   font-family:'IBM Plex Sans',-apple-system,BlinkMacSystemFont,sans-serif;
   overflow-x:hidden; position:relative;
+  -webkit-font-smoothing: antialiased;
 }
 
 /* ===== BACKGROUND LAYERS ===== */
